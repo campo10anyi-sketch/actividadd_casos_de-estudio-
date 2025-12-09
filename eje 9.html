@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="ee">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Actividad4</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>ejercicio_1</title>
+    <link rel="stylesheet" href="/assests/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
 </head>
 <body>
     <header>
+
+            <header>
        <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
@@ -30,18 +33,18 @@
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="eje 1.html">ejercicio 1</a></li>
                     <li><a class="dropdown-item" href="">ejercicio 2</a></li>
-                    <li><a class="dropdown-item" href="../eje 3.html">ejercicio 3</a></li>
+                    <li><a class="dropdown-item" href="eje 3.html">ejercicio 3</a></li>
                     <li><a class="dropdown-item" href="#">ejercicio 4</a></li>
-                    <li><a class="dropdown-item" href="../eje 5.html">ejercicio 5</a></li>
+                    <li><a class="dropdown-item" href="eje 5.html">ejercicio 5</a></li>
                     <li><a class="dropdown-item" href="#">ejercicio 6</a></li>
-                    <li><a class="dropdown-item" href="../eje 7.html">ejercicio 7</a></li>
+                    <li><a class="dropdown-item" href="eje 7.html">ejercicio 7</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="#">ejercicio 8</a></li>
-                    <li><a class="dropdown-item" href="../eje 9.html">ejercicio 9</a></li>
+                    <li><a class="dropdown-item" href="eje 9.html">ejercicio 9</a></li>
                     <li><a class="dropdown-item" href="#">ejercicio 10</a></li>
-                    <li><a class="dropdown-item" href="../eje 11.html">ejercicio 11</a></li>
+                    <li><a class="dropdown-item" href="eje 11.html">ejercicio 11</a></li>
                     <li><a class="dropdown-item" href="#">ejercicio 12</a></li>
-                    <li><a class="dropdown-item" href="../eje 13 .html">ejercicio 13</a></li>
+                    <li><a class="dropdown-item" href="eje 13 .html">ejercicio 13</a></li>
                     <li><a class="dropdown-item" href="#">ejercicio 14</a></li>
                      
 
@@ -58,22 +61,29 @@
             </div>
         </div>
         </nav> 
-            </header>
-            <nav>
-        
+    <nav>
+             <h2>Evaluador de Llantas</h2>
+
+            <label>Tipo: </label>
+            <input type="text" id="tipo"><br><br>
+
+            <label>Grosor: </label>
+            <input type="number" step="0.1" id="grosor"><br><br>
+
+            <label>Diámetro: </label>
+            <input type="number" step="0.1" id="diametro"><br><br>
+
+            <label>Marca: </label>
+            <input type="text" id="marca"><br><br>
+
+            <button onclick="evaluarLlantas()">Evaluar</button>
+
+    <h3>Resultado:</h3>
+    <div id="resultado"></div>
     </nav>
-    <main>
-        <h3 class="estudiante">
-        <p>PRESENTADO POR: GILBERT FERNANDO MACIAS CHANTRE  <p>Anyi Sofia Campo</p>
-        </h3> 
-        
-    </main>
-    <footer> <H3 class="instructor">INSTRUCTOR: lUIS VEJARANO</H3>
-    <P class="sena">SERVICIO NACIONAL DE APRENDIZAJE SENA</P></footer>
+     <script type="text/javascript" src="assests/js/ejercicio_9.js"></script>
+     <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
+    
 </body>
-</html
+</html>
