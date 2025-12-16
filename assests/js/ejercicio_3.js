@@ -7,7 +7,7 @@ function calcular() {
       let tipo = document.getElementById("tipo").value;
       let pago = document.getElementById("pago").value;
       let detalle = document.getElementById("detalle");
-        }
+        
       if (isNaN(cantidad) || cantidad <= 0) {
         detalle.textContent = "Ingrese un número válido de hamburguesas.";
         return;
@@ -38,8 +38,6 @@ function calcular() {
         Tipo de pago: ${pago.charAt(0).toUpperCase() + pago.slice(1)}<br>
         Total sin cargo: $${totalSinCargo}<br>
         El cargo es: $${cargo}<br>
-        Total a pagar es: $${totalPagar};
+        Total a pagar es: $${totalPagar};`
+    
     }
-
-
-
